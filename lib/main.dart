@@ -57,7 +57,7 @@ class _StudentUtilityHubAppState extends State<StudentUtilityHubApp> {
 
     return MaterialApp(
       key: ValueKey('${preset.id}_${widget.storage.themeMode}'),
-      title: 'Student HUb',
+      title: 'Student Hub',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.getLightTheme(preset),
       darkTheme: AppTheme.getDarkTheme(preset),
